@@ -1,0 +1,40 @@
+/* styles.css */
+
+.container {
+    animation: bounceIn 0.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(-50px);
+    align-content: center;
+  }
+  
+  @keyframes bounceIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .dropdown {
+    display: none;
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .show-dropdown {
+    display: block;
+  }
+  

@@ -1,0 +1,16 @@
+@keyframes moveTechStack {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .tech-stack {
+    animation: moveTechStack 3s ease-in-out infinite;
+  }
+  
